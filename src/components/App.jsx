@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   justify-content: center;
 `
 
-const Content = styled.div`
+const Content = styled.main`
   margin-top: 70px;
   width: 350px;
   height: 600px;
