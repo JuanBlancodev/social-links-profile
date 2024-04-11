@@ -16,10 +16,15 @@
   --color-off-black: hsl(0, 0%, 8%);
 }
 
-body{
+*{
   margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 20px;
   font-family: var(--font-main);
+  background-color: var(--color-off-black);
 }
 
 p{
