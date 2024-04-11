@@ -11,7 +11,7 @@
   --color-primary: hsl(75, 94%, 57%);
 
   --color-white: hsl(0, 0%, 100%);
-  --color-grey: Grey: hsl(0, 0%, 20%);
+  --color-grey: hsl(0, 0%, 20%);
   --color-dark-rey: hsl(0, 0%, 12%);
   --color-off-black: hsl(0, 0%, 8%);
 }
@@ -29,4 +29,84 @@ body{
 
 p{
   font-size: var(--font-size);
+}
+
+/* Colors */
+
+.color-primary{
+  color: var(--color-primary);
+}
+
+.color-white{
+  color: var(--color-white);
+}
+
+.color-grey{
+  color: var(--color-grey);
+}
+
+.color-dark-grey{
+  color: var(--color-dark-rey);
+}
+
+.color-off-black{
+  color: var(--color-off-black);
+}
+
+/* Weight */
+.normal{
+  font-weight: var(--weight-normal);
+}
+
+.semibold{
+  font-weight: var(--weight-semibold);
+}
+
+.bold{
+  font-weight: var(--weight-bold);
+}
+
+/* Display */
+.grid{
+  display: grid;
+}
+
+/* Place */
+
+.p-items-center{
+  place-items: center;
+}
+
+/* Gap */
+.gap-1 {
+  gap: 8px;
+}
+
+.gap-2 {
+  gap: 12px;
+}
+
+.gap-3 {
+  gap: 16px;
+}
+
+.gap-4{
+  gap: 20px;
+}
+
+.gap-5{
+  gap: 24px;
+}
+
+.gap-6{
+  gap: 28px;
+}
+
+.gap-7{
+  gap: 32px;
+}
+
+/* Text */
+.nowarp{
+  text-wrap: nowrap;
 }

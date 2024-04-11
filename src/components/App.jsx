@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import Header from './Header/Header'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -10,8 +11,10 @@ const Wrapper = styled.div`
 
 const Content = styled.div`
   margin-top: 70px;
-  width: 400px;
+  width: 375px;
   height: 600px;
+
+  padding: 50px 35px;
 
   border-radius: 10px;
   background-color: var(--color-dark-rey);
@@ -25,7 +28,7 @@ const App = () => {
   return (
     <Wrapper>
       <Content>
-        
+        <Header />
       </Content>
     </Wrapper>
   )
