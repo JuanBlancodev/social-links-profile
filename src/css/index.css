@@ -4,6 +4,10 @@
   --font-main: "Inter", sans-serif;
   --font-size: 14px;
 
+  --font-small: 18px;
+  --font-medium: 23px;
+  --font-large: 28px;
+
   --weight-normal: 400;
   --weight-semibold: 600;
   --weight-bold: 700;
@@ -117,4 +121,17 @@ p{
 /* Text */
 .nowarp{
   text-wrap: nowrap;
+}
+
+/* Font size */
+.font-sm{
+  font-size: var(--font-small);
+}
+
+.font-m{
+  font-size: var(--font-medium);
+}
+
+.font-lg{
+  font-size: var(--font-large);
 }
