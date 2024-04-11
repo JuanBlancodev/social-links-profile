@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import Header from './Header/Header'
+import SocialContainer from './Social/SocialContainer'
 
 const Wrapper = styled.div`
   width: 100%;
@@ -11,15 +12,16 @@ const Wrapper = styled.div`
 
 const Content = styled.div`
   margin-top: 70px;
-  width: 375px;
+  width: 350px;
   height: 600px;
 
-  padding: 50px 35px;
+  padding: 35px 50px;
 
   border-radius: 10px;
   background-color: var(--color-dark-rey);
 
   @media (height < 740px){
+    padding: 35px 20px;
     margin-top: 10px;
   }
 `
@@ -29,6 +31,7 @@ const App = () => {
     <Wrapper>
       <Content>
         <Header />
+        <SocialContainer />
       </Content>
     </Wrapper>
   )
