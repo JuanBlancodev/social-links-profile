@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const Container = styled.div`
+const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
 
@@ -8,7 +8,7 @@ const Container = styled.div`
   justify-content: center;
 `
 
-const SubContainer = styled.div`
+const Content = styled.div`
   margin-top: 70px;
   width: 400px;
   height: 600px;
@@ -23,9 +23,11 @@ const SubContainer = styled.div`
 
 const App = () => {
   return (
-    <Container>
-      <SubContainer />
-    </Container>
+    <Wrapper>
+      <Content>
+        
+      </Content>
+    </Wrapper>
   )
 }
 
