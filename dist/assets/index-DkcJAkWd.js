@@ -67,7 +67,7 @@ Error generating stack: `+l.message+`
 
   display: flex;
   justify-content: center;
-`,Gh=nt.div`
+`,Gh=nt.main`
   margin-top: 70px;
   width: 350px;
   height: 600px;
