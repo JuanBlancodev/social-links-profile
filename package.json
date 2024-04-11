@@ -6,6 +6,7 @@
   "author": {
     "name": "Juan Blanco"
   },
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
