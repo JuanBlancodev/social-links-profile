@@ -10,11 +10,11 @@ const Container = styled.div`
 const SocialContainer = () => {
   return (
     <Container className="grid gap-2">
-      <SocialButton value="GitHub" />
-      <SocialButton value="Frontend Mentor" />
-      <SocialButton value="LinkedIn" />
-      <SocialButton value="Twitter" />
-      <SocialButton value="Instagram" />
+      <SocialButton value="GitHub" href="https://github.com/" />
+      <SocialButton value="Frontend Mentor" href="https://www.frontendmentor.io" />
+      <SocialButton value="LinkedIn" href="https://www.linkedin.com" />
+      <SocialButton value="Twitter" href="https://twitter.com" />
+      <SocialButton value="Instagram" href="https://www.instagram.com/" />
     </Container>
   )
 }
